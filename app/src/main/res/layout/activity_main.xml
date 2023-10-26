@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/night_dark"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:buttonGravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:subtitle="только суровая правда"
+        app:subtitleTextColor="@color/yellow"
+        app:title="МетеоШаман"
+        app:titleTextColor="@color/yellow" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="65dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/falling"
+            android:layout_gravity="end"
+            android:scaleType="centerCrop"/>
+
+        <Button
+            android:id="@+id/buben"
+            style="@style/Widget.Material3.Button.IconButton.Outlined"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:text="Колданем?"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:icon="@drawable/tambourine_7x5x0qf2sp6w"
+            app:iconGravity="textTop"
+            app:iconPadding="20dp"
+            app:iconSize="70dp"
+            app:iconTint="@color/yellow"
+            app:strokeWidth="0dp" />
+
+        <TextView
+            android:id="@+id/astral_text"
+            android:layout_width="137dp"
+            android:layout_height="120dp"
+            android:layout_alignTop="@+id/astral"
+            android:layout_alignEnd="@+id/astral"
+            android:layout_alignBottom="@+id/astral"
+            android:layout_marginTop="41dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="39dp"
+            android:elevation="32dp"
+            android:visibility="invisible"
+            android:gravity="center"
+            android:text="Выход\nв\nастрал"
+            android:textSize="18sp"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            tools:visibility="visible"/>
+
+        <ImageButton
+            android:id="@+id/astral"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:alpha="0.6"
+            android:background="@android:color/transparent"
+            android:elevation="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/button"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/forecast"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="8dp"
+            android:elevation="8dp"
+            android:visibility="invisible"
+            tools:visibility = "visible"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
