@@ -1,14 +1,14 @@
-сегодня%+15°C%baseline_filter_drama_24%Облачно. Возможны осадки из фрикаделек
-завтра%+16°C%baseline_wash_24%Мелкописающий дождик
-послезавтра%+14°C%baseline_umbrella_24%Возможно, дождь, возможно, нет...
-на 4-й день%+20°C%baseline_pool_24%Ооочень обильные осадки!
-на 5-й день%+15°C%baseline_kayaking_24%Вселенский ПОТОП
-на 6-й день%+10°C%baseline_sentiment_very_dissatisfied_24%Мокро и грустно
-на 7-й день%-1°C%baseline_severe_cold_24%Вот так сюрприз! А колеса переобул?
-на 8-й день%-5°C%baseline_sports_handball_24%Гололедище!
-на 9-й день%-10°C%baseline_snowboarding_24%Мороз и солнце! День чудесный!
-на 10-й день%-20°C%baseline_chalet_24%Дубак  крепчал
-на 11-й день%-30°C%baseline_chair_24%Сиди-ка ты дома. Постигай непостижимое.
-на 12-й день%-35°C%baseline_self_improvement_24%Наступает просветление
-на 13-й день%-20°C%baseline_wb_sunny_24%Вооот. Молитва помогла
-на 14-й день%-15°C%baseline_roller_skating_24%Чуешь весну? Она близко)
+сегодня%15%baseline_filter_drama_24%Облачно. Возможны осадки из фрикаделек
+завтра%16%baseline_wash_24%Мелкописающий дождик
+послезавтра%14%baseline_umbrella_24%Возможно, дождь, возможно, нет...
+на 4-й день%20%baseline_pool_24%Ооочень обильные осадки!
+на 5-й день%13%baseline_kayaking_24%Вселенский ПОТОП
+на 6-й день%10%baseline_sentiment_very_dissatisfied_24%Мокро и грустно
+на 7-й день%-1%baseline_severe_cold_24%Вот так сюрприз! А колеса переобул?
+на 8-й день%-5%baseline_sports_handball_24%Гололедище!
+на 9-й день%-10%baseline_snowboarding_24%Мороз и солнце! День чудесный!
+на 10-й день%-20%baseline_chalet_24%Дубак  крепчал
+на 11-й день%-30%baseline_chair_24%Сиди-ка ты дома. Постигай непостижимое.
+на 12-й день%-35%baseline_self_improvement_24%Наступает просветление
+на 13-й день%-20%baseline_wb_sunny_24%Вооот. Молитва помогла
+на 14-й день%-15%baseline_roller_skating_24%Чуешь весну? Она близко)
