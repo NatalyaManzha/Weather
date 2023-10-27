@@ -7,4 +7,11 @@
     <color name="grey_light">#818996</color>
     <color name="grey_dark">#444D54</color>
     <color name="night_dark">#061822</color>
+    <color name="blue_cold">#7B9CFF</color>
+    <color name="blue">#7BEBFF</color>
+    <color name="green_blue">#7BFFDA</color>
+    <color name="green_worm">#7BFF9B</color>
+    <color name="green_yellow">#CCFF7B</color>
+    <color name="yellow_worm">#FFE97B</color>
+
 </resources>
